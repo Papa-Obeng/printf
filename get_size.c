@@ -18,6 +18,8 @@ else if (format[curr_i] == 'h')
 
 if (size == 0)
 	*i = curr_i - 1;
+else
+	*i = curr_i;
 
 return (size);
 }
